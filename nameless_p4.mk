@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/p4/p4.mk)
 
 # Get the prebuilt list of APNs
-$(call inherit-product, vendor/nameless/config/apns.mk)
+# $(call inherit-product, vendor/nameless/config/apns.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -16,12 +16,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 PRODUCT_LOCALES += tl_PH en_PH en_JP
 
 # Inherit some common nameless stuff.
-$(call inherit-product, vendor/nameless/config/common.mk)
+# $(call inherit-product, vendor/nameless/config/common.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := nameless_p4
+PRODUCT_NAME := cm_p4
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := p4
 PRODUCT_MODEL := GT-P7500

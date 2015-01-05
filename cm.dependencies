@@ -1,13 +1,13 @@
 [
   {
-    "remote": "nameless",
-    "repository": "android_device_samsung_p4-common",
+    "remote": "github",
+    "repository": "nlphacker/android_device_samsung_p4-common",
     "target_path": "device/samsung/p4-common",
     "revision": "android-4.4"
   },
   {
     "remote": "github",
-    "repository": "CrazyWeasel/proprietary_vendor_samsung",
+    "repository": "nlphacker/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "revision": "android-4.4"
   }
