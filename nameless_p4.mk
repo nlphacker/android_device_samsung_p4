@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 PRODUCT_LOCALES += tl_PH en_PH en_JP
 
 # Inherit some common nameless stuff.
-# $(call inherit-product, vendor/nameless/config/common.mk)
+$(call inherit-product, vendor/cm/config/common.mk)
 
 #
 # Setup device specific product configuration.
